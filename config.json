@@ -1,0 +1,89 @@
+[
+  {
+    "key": "traefik/http/middlewares/plm-productstructure-stripprefix/stripPrefix/prefixes/0",
+    "flags": 0,
+    "value": "L2FwaS9wcm9kdWN0c3RydWN0dXJl"
+  },
+  {
+    "key": "traefik/http/middlewares/plm-engineering-stripprefix/stripPrefix/prefixes/0",
+    "flags": 0,
+    "value": "L2FwaS9lbmdpbmVlcmluZw=="
+  },
+  {
+    "key": "traefik/http/middlewares/plm-ipec-stripprefix/stripPrefix/prefixes/0",
+    "flags": 0,
+    "value": "L2FwaS9pcGVj"
+  },
+  {
+    "key": "traefik/http/routers/plm-productstructure-route/entryPoints/0",
+    "flags": 0,
+    "value": "d2Vi"
+  },
+  {
+    "key": "traefik/http/routers/plm-productstructure-route/middlewares/0",
+    "flags": 0,
+    "value": "cGxtLXByb2R1Y3RzdHJ1Y3R1cmUtc3RyaXBwcmVmaXg="
+  },
+  {
+    "key": "traefik/http/routers/plm-productstructure-route/rule",
+    "flags": 0,
+    "value": "UGF0aFByZWZpeChgL2FwaS9wcm9kdWN0c3RydWN0dXJlL2Ap"
+  },
+  {
+    "key": "traefik/http/routers/plm-productstructure-route/service",
+    "flags": 0,
+    "value": "cHJvZHVjdHN0cnVjdHVyZS1zZXJ2aWNl"
+  },
+
+  {
+    "key": "traefik/http/routers/plm-productstructure-route/priority",
+    "flags": 0,
+    "value": "NDI="
+  },
+
+  {
+    "key": "traefik/http/routers/plm-ipec-route/entryPoints/0",
+    "flags": 0,
+    "value": "d2Vi"
+  },
+  {
+    "key": "traefik/http/routers/plm-ipec-route/middlewares/0",
+    "flags": 0,
+    "value": "cGxtLWlwZWMtc3RyaXBwcmVmaXg="
+  },
+  {
+    "key": "traefik/http/routers/plm-ipec-route/priority",
+    "flags": 0,
+    "value": "NDI="
+  },
+  {
+    "key": "traefik/http/routers/plm-ipec-route/rule",
+    "flags": 0,
+    "value": "UGF0aFByZWZpeChgL2FwaS9pcGVjL2Ap"
+  },
+  {
+    "key": "traefik/http/routers/plm-ipec-route/service",
+    "flags": 0,
+    "value": "aXBlYy1zZXJ2aWNl"
+  },
+  {
+    "key": "traefik/http/routers/plm-engineering-route/entryPoints/0",
+    "flags": 0,
+    "value": "d2Vi"
+  },
+  {
+    "key": "traefik/http/routers/plm-engineering-route/middlewares/0",
+    "flags": 0,
+    "value": "cGxtLWVuZ2luZWVyaW5nLXN0cmlwcHJlZml4"
+  },
+  {
+    "key": "traefik/http/routers/plm-engineering-route/rule",
+    "flags": 0,
+    "value": "UGF0aFByZWZpeChgL2FwaS9lbmdpbmVlcmluZy9gKQ=="
+  },
+  {
+    "key": "traefik/http/routers/plm-engineering-route/service",
+    "flags": 0,
+    "value": "ZW5naW5lZXJpbmctc2VydmljZQ=="
+  }
+]
