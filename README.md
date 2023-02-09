@@ -39,3 +39,16 @@
 # Start the Traefik agent
 
 ## traefik
+
+
+
+## Consul
+http://localhost:8500
+
+## Traefik
+http://localhost:8080
+
+
+
+## health
+http://localhost/api/engineering/actuator/health
