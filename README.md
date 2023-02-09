@@ -6,9 +6,9 @@
 
 ## java -jar target/plm-config-server-2.3.1.jar
 
-# Start the zipkin tracing
+# Start the zipkin tracing (download zipkin)
 
-## docker run -d -p 9411:9411 openzipkin/zipkin
+## java -jar zipkin/zipkin.jar
 
 # Start the consul in dev mode
 
