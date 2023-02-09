@@ -52,3 +52,19 @@ http://localhost:8080
 
 ## health
 http://localhost/api/engineering/actuator/health
+
+# API Gateway for PLM Microservices
+
+## Manage Drawings
+
+![img.png](img.png)
+
+## Manage Engineering Change Requests
+
+![img_1.png](img_1.png)
+
+## Manage Parts
+
+![img_2.png](img_2.png)
+
+
